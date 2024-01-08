@@ -112,3 +112,35 @@ body {
     text-decoration: underline;
 }
 
+
+
+
+.project-page {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-content {
+    height: fit-content;
+    width: fit-content;
+}
+
+.project-content h1 {
+    font-size: 6rem;
+    font-weight: 200;
+    color: var( --palette-eggplant );
+    margin: 0;
+}
+
+.project-description h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    
+    color: var( --palette-atomic_tangerine );
+    margin: 0;
+}
+
